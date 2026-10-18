@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:text="LONG ROBOT - Dieu khien thay ban"
+        android:textSize="20sp" android:textStyle="bold"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Switch android:id="@+id/mainPowerSwitch"
+        android:text="BAT Tu dong 100%"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+    <TextView android:id="@+id/statusText"
+        android:text="Dang nghi - Cho lenh cua ban"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnAccessibility"
+        android:text="1. Cap quyen Tro nang (chi 1 lan)"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    <Button android:id="@+id/btnNotification"
+        android:text="2. Cap quyen Doc thong bao (chi 1 lan)"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:text="Ra lenh cho app:"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+    <EditText android:id="@+id/commandInput"
+        android:hint="VD: Chi tra loi Zalo, dung Facebook, chi tu 8h-12h"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnSendCommand"
+        android:text="Gui lenh cho Robot"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
